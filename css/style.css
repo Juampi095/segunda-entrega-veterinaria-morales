@@ -39,3 +39,8 @@
 img{
     position: relative;
 }
+/*******SLIDER*******/
+.carousel-inner{
+    width: 25%;
+    margin: 0 auto;
+}
