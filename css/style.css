@@ -1,3 +1,4 @@
+/***********NAV *********/
 .navbar{
     background-color: #366fb1;
 }
@@ -23,4 +24,11 @@
 }
 .btn:hover{
     background-color: #d87753c9 !important; 
+}
+/*******CONTENIDO********/
+.tituloUno{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 40px;
+    color: #366fb1;
 }
