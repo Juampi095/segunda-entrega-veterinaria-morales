@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #366fb1;
+}
+.nav-link{
+    color: white;
+    border: #c9d886 solid 2px;
+    border-radius: 130px;
+}
+.nav-link:hover{
+    color: bisque;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: bisque;
+    transition: all;
+    transform: scale(1.2);
+}
+.btn{
+    color: white;
+    background-color: #ffe4c42d;
+}
+.btn:hover{
+    background-color: #d87753c9 !important; 
+}
