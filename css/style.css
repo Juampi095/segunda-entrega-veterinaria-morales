@@ -1,51 +1,90 @@
 /***********NAV *********/
-.navbar{
+.navbar {
     background-color: #366fb1;
 }
-.nav-link{
+
+.nav-link {
     color: white;
     border: #c9d886 solid 2px;
     border-radius: 130px;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: bisque;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: white;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     color: bisque;
     transition: all;
     transform: scale(1.2);
 }
-.btn{
+
+.btn {
     color: white;
     background-color: #ffe4c42d;
+    border-radius: 130px;
 }
-.btn:hover{
-    background-color: #d87753c9 !important; 
+
+.btn:hover {
+    background-color: #d87753c9 !important;
 }
+
 /*******CONTENIDO********/
-.tituloUno{
+.tituloUno {
     text-align: center;
     margin-top: 1rem;
     font-size: 40px;
     color: #366fb1;
 }
-.titulosIndex{
+
+.titulosIndex {
     font-size: 25px;
     color: #366fb1;
 }
-img{
+
+img {
     position: relative;
 }
+
 /*******SLIDER*******/
-.carousel-inner{
+.carousel-inner {
     width: 25%;
     margin: 0 auto;
 }
+
 /**** CONTACTO********/
-.newsletter{
+.newsletter {
     margin-top: 1rem;
     margin: 1rem;
+    color: #366fb1;
+}
+.form-label{
+    margin: 1rem
+}
+.form-control{
+    margin: 0.5rem;
+    width: 25%;
+}
+.form-text {
+    margin: 1rem;
+}
+.form-check-input{
+    margin: .3rem !important ;  
+}
+
+.btn2{
+background-color:  #366fb1;
+color: white;
+border-color: white;
+border-radius: 130px;
+margin: .5rem;
+padding: .5;
+}
+.btn2:hover {
+    background-color: #dddadac9;
+    color: #366fb1;
 }
