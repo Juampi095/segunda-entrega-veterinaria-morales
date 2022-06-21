@@ -72,12 +72,15 @@
 }
 
 .form-control {
-    margin: 0.5rem;
+    margin: 1rem;
     width: 35%;
     border-radius: 15px;
 }
-.form-control:hover{
+
+.form-control:hover {
     background-color: #dddadac9;
+    transform: scale(1.02);
+    transition: .3s;
 }
 
 
@@ -96,7 +99,7 @@
     border-radius: 130px;
     margin: .5rem;
     padding: .5;
- transition: .5s;
+    transition: .5s;
 }
 
 .btn2:hover {
