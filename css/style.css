@@ -96,6 +96,7 @@
     border-radius: 130px;
     margin: .5rem;
     padding: .5;
+ transition: .5s;
 }
 
 .btn2:hover {
