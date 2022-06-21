@@ -76,6 +76,10 @@
     width: 35%;
     border-radius: 15px;
 }
+.form-control:hover{
+    background-color: #dddadac9;
+}
+
 
 .form-text {
     margin: 1rem;
