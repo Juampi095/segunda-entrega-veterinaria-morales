@@ -115,4 +115,7 @@
 }
 .parrafoNosotros{
     width: 75%;
+    border: groove 2px hsl(25, 84%, 62%);
+    border-radius: 5px;
+    
 }
