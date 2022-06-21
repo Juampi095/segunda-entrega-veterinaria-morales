@@ -74,6 +74,7 @@
 .form-control {
     margin: 0.5rem;
     width: 35%;
+    border-radius: 15px;
 }
 
 .form-text {
