@@ -113,9 +113,27 @@
     margin-top: 1rem;
     font-size: 1.9rem;
 }
-.parrafoNosotros{
+
+.parrafoNosotros {
     width: 75%;
     border: groove 2px hsl(25, 84%, 62%);
     border-radius: 5px;
-    
+    animation-name: cambioColor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/*****EFECTO PARRAFO NOSOTROS*****/
+@keyframes cambioColor {
+    0% {
+        background-color: #366fb1;
+    }
+
+    50% {
+        background-color: #2eba8c;
+    }
+
+    100% {
+        background-color: #c9d886;
+    }
 }
