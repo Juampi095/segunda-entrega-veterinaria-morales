@@ -33,6 +33,7 @@
     background-color: #d87753c9 !important;
 }
 
+
 /*******CONTENIDO********/
 .tituloUno {
     text-align: center;
@@ -46,8 +47,11 @@
     color: #366fb1;
 }
 
-img {
+.imagenInicio {
     position: relative;
+    left: 60rem;
+    bottom: 3.5rem;
+
 }
 
 /*******SLIDER*******/
@@ -62,28 +66,33 @@ img {
     margin: 1rem;
     color: #366fb1;
 }
-.form-label{
+
+.form-label {
     margin: 1rem
 }
-.form-control{
+
+.form-control {
     margin: 0.5rem;
-    width: 25%;
+    width: 35%;
 }
+
 .form-text {
     margin: 1rem;
 }
-.form-check-input{
-    margin: .3rem !important ;  
+
+.form-check-input {
+    margin: .3rem !important;
 }
 
-.btn2{
-background-color:  #366fb1;
-color: white;
-border-color: white;
-border-radius: 130px;
-margin: .5rem;
-padding: .5;
+.btn2 {
+    background-color: #366fb1;
+    color: white;
+    border-color: white;
+    border-radius: 130px;
+    margin: .5rem;
+    padding: .5;
 }
+
 .btn2:hover {
     background-color: #dddadac9;
     color: #366fb1;
